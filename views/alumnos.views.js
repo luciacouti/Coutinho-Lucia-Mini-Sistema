@@ -1,4 +1,4 @@
-function generatePage(title, contnet) {
+function generatePage(title, contenido) {
 
     let html = `<!DOCTYPE html>
         <html>
@@ -12,7 +12,7 @@ function generatePage(title, contnet) {
 
     html += '<nav><a href="/">Home</a> | <a href="/alumnos">Productos</a> | <a href="/alumnos/nuevo">Nuevo Producto</a></nav>'
 
-    html += contnet;
+    html += contenido;
 
     html += '</body></html>'
 
